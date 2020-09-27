@@ -1,0 +1,203 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 100vh;
+  color: #fff;
+}
+
+.header-nav {
+  list-style: none;
+  text-align: center;
+  padding-left: 0;
+  background-color: rgb(102, 101, 101);
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 5;
+}
+
+.header-nav li {
+  /* border: 5px solid #fff; */
+  color: #fff;
+  font-size: 2em;
+  border-bottom: solid #fff 5px;
+}
+
+.header-nav li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header-image {
+  background: linear-gradient(#ffa949, transparent 90%),
+    linear-gradient(0deg, #fff, transparent),
+    #ffa949 url(images/pexels-quang-nguyen-vinh-2164272.jpg) no-repeat;
+
+  background-size: cover;
+  background-position: center right;
+  width: 100%;
+  height: 100%;
+  border-top: 5px solid #fff;
+  padding-top: 9.5em;
+}
+.logo {
+  height: 300px;
+  width: 160px;
+  height: 5em;
+  width: 2.8em;
+  background-image: radial-gradient(circle, #fff, blue);
+  clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%, 50% 0);
+  margin: auto;
+  margin-top: 2em;
+}
+
+.header-text-box p {
+  font-size: 1.5em;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.col-1 {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.col1-img {
+  background: linear-gradient(#ffa949, transparent 90%),
+    linear-gradient(0deg, #fff, transparent),
+    #ffa949 url(images/girlcow.jpg) no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  padding-bottom: 85%;
+  color: #fff;
+  text-align: center;
+}
+
+.col1-img h2 {
+  background-color: rgb(102, 101, 101);
+  border-bottom: #fff solid 5px;
+  padding: 5px 0;
+  font-size: 2em;
+}
+
+.col-2 {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.col2-img {
+  background: linear-gradient(#ffa949, transparent 90%),
+    linear-gradient(0deg, #fff, transparent),
+    #ffa949 url(images/steamless4.jpeg) no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  padding-bottom: 85%;
+  color: #fff;
+  text-align: center;
+}
+
+.col2-img h2 {
+  background-color: rgb(102, 101, 101);
+  border-bottom: #fff solid 5px;
+  padding: 5px 0;
+  font-size: 2em;
+}
+
+h2 {
+  background-color: rgb(102, 101, 101);
+  border-bottom: #fff solid 5px;
+  padding: 5px 0;
+  font-size: 2em;
+  color: #fff;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.form-header {
+  margin-bottom: 0;
+}
+
+form {
+  text-align: center;
+  border-top: 1px solid rgb(102, 101, 101);
+}
+label {
+  display: block;
+  width: 100%;
+  margin: 5px 0;
+}
+
+input {
+  width: 90%;
+  border-bottom: solid 5px rgb(102, 101, 101);
+  margin: 0 auto;
+}
+
+textarea {
+  border-bottom: solid 5px rgb(102, 101, 101);
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #fff;
+  text-decoration: none;
+  color: rgb(102, 101, 101);
+  padding: 10px 5px;
+  border-radius: 50%;
+  border: 2px solid rgb(102, 101, 101);
+}
+
+.btn:hover {
+  background-color: #ffa949;
+}
+
+.footer-media-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.social-icon {
+  padding: 30px 10px;
+}
+
+/* position: relative;
+  top: 50%;
+  transform: translatey(-50%); */
+/* .col1-img {
+  background: linear-gradient(transparent 90%, #ffa949),
+    linear-gradient(0deg, transparent, #fff),
+    #ffa949 url(images/girlcow.jpg) no-repeat center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  padding-top: 85%;
+} */
+/* .img-box-1 {
+  background: linear-gradient(transparent 90%, #ffa949),
+    linear-gradient(0deg, transparent, #fff),
+    #ffa949 url(images/girlcow.jpg) no-repeat center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  padding-top: 85%;
+} */
