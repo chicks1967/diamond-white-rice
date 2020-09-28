@@ -148,6 +148,7 @@ input {
   width: 90%;
   border-bottom: solid 5px rgb(102, 101, 101);
   margin: 0 auto;
+  padding: 8px 2px;
 }
 
 textarea {
@@ -177,27 +178,3 @@ textarea {
 .social-icon {
   padding: 30px 10px;
 }
-
-/* position: relative;
-  top: 50%;
-  transform: translatey(-50%); */
-/* .col1-img {
-  background: linear-gradient(transparent 90%, #ffa949),
-    linear-gradient(0deg, transparent, #fff),
-    #ffa949 url(images/girlcow.jpg) no-repeat center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 100%;
-  padding-top: 85%;
-} */
-/* .img-box-1 {
-  background: linear-gradient(transparent 90%, #ffa949),
-    linear-gradient(0deg, transparent, #fff),
-    #ffa949 url(images/girlcow.jpg) no-repeat center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 100%;
-  padding-top: 85%;
-} */
